@@ -45,4 +45,4 @@ If you wanna flex with a standalone Windows .exe, use PyInstaller:
 ```bash
 pyinstaller --onefile --windowed --add-data "cat;cat" runcat.py
 ```
-
+Then, install dist/runcat.exe file
