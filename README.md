@@ -33,11 +33,16 @@ Make sure you’ve got Python 3.10 or newer installed on your system.
 git clone https://github.com/Fuad-Khan/CPU-RunningCat.git
 cd CPU-RunningCat
 pip install -r requirements.txt
+```
 
 ## How to Run
+```bash
 python runcat.py
+```
 
 ## Build Windows Executable (Optional)
 # If you wanna flex with a standalone Windows .exe, use PyInstaller:
+```bash
 pyinstaller --onefile --windowed --add-data "cat;cat" runcat.py
+```
 
